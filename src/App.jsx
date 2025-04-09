@@ -15,3 +15,15 @@ function App() {
 }
 
 export default App
+// import React from 'react';
+// import Dashboard from './Pages/Dashboard';
+
+// const App = () => {
+//   return (
+//     <div className="App">
+//       <Dashboard />
+//     </div>
+//   );
+// };
+
+// export default App;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Header from '../Components/Header'
-import Frontend from './frontend/Index'
+import Frontend from '/Final Year Project/Smart-city-Dashboard/src/Pages/frontend/Index.jsx'
 
 
 const Routers = () => {

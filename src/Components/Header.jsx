@@ -2,15 +2,16 @@ import React from 'react'
 import { Link } from "react-router-dom";
 function Header  ()  {
     return (
-      <header className="bg-blue-600 text-white py-4 px-6 flex items-center justify-between shadow-lg">
+      // <header className="bg-blue-600 text-white py-4 px-6 flex items-center justify-between shadow-lg">
+      <header className="bg-gradient-to-r flex items-center justify-between from-blue-500 via-purple-500 to-indigo-500 p-6 shadow-lg text-white rounded-b-3xl">
         {/* Logo & Title */}
         <div className="flex items-center space-x-3">
-          <span className="text-2xl font-bold">🌆 Smart City Dashboard</span>
+          <span className="text-5xl font-bold">🌆 Smart City Dashboard</span>
         </div>
         
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-6">
-          <Link to="#" className="hover:text-gray-200 transition font-bold">Home</Link>
+          <Link to="/" className="hover:text-gray-200 transition font-bold">Home</Link>
           <Link to="/About" className="hover:text-gray-200 transition font-bold">About</Link>
           <Link to="/EventAdding" className="hover:text-gray-200 transition font-bold">Event Adding</Link>
           {/* <a href="#" className="hover:text-gray-200 transition">Settings</a> */}
@@ -25,4 +26,4 @@ function Header  ()  {
   };
   
   export default Header;
-  
+
